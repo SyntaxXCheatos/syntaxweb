@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Syntax X Offsets</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Syntax X Offsets</h1>
+    <nav>
+      <button class="tab-btn active" data-tab="login">Login</button>
+      <button class="tab-btn" data-tab="offsets" disabled>Fortnite Offsets</button>
+      <button class="tab-btn" data-tab="spoofers" disabled>Spoofer's</button>
+      <button class="tab-btn" data-tab="tools" disabled>Tools</button>
+    </nav>
+
+    <section id="login" class="tab-content">
+      <h2>Login Panel</h2>
+      <input id="password" type="password" placeholder="Enter owner password" autocomplete="off" />
+      <div class="login-buttons">
+        <button id="login-btn">Login as Owner</button>
+        <button id="guest-btn">Continue as Guest</button>
+      </div>
+      <p id="login-msg" class="msg"></p>
+    </section>
+
+    <section id="offsets" class="tab-content hidden">
+      <h2>Fortnite Offsets</h2>
+      <button id="copy-all-btn" class="copy-all-btn">Copy All Offsets</button>
+      <div id="offsets-list"></div>
+      <button id="edit-offsets-btn" class="hidden">Edit Offsets</button>
+      <button id="save-offsets-btn" class="hidden">Save Offsets</button>
+      <a id="download-cheat" href="https://gofile.io/d/CAjOMq" target="_blank" class="download-btn">Download Updated Fortnite Cheat Src</a>
+    </section>
+
+    <section id="spoofers" class="tab-content hidden">
+      <h2>Spoofer's</h2>
+      <div class="spoofer-item">
+        <h3>64th Service Temp</h3>
+        <p>Status: <span class="status safe">Safe</span>, <span class="status working">Working</span></p>
+        <a href="https://gofile.io/d/0ZxkqW" target="_blank" class="download-btn">Download Now</a>
+      </div>
+      <div class="spoofer-item">
+        <h3>Virtualized Temp</h3>
+        <p>Status: <span class="status safe">Safe</span>, <span class="status working">Working</span></p>
+        <a href="https://gofile.io/d/Ftho5t" target="_blank" class="download-btn">Download Now</a>
+      </div>
+    </section>
+
+    <section id="tools" class="tab-content hidden">
+      <h2>Tools</h2>
+      <div class="tool-item">
+        <h3>Syntax X PC Encrypter</h3>
+        <a href="https://gofile.io/d/ZgtL3B" target="_blank" class="download-btn">Download Now</a>
+      </div>
+    </section>
+  </div>
+
+<script src="offsets.js"></script>
+</body>
+</html>

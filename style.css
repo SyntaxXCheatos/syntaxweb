@@ -1,0 +1,230 @@
+/* Red and Black Theme */
+
+body {
+  background-color: #1a1a1a;
+  color: #eee;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #111;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #ff0000aa;
+}
+
+h1 {
+  text-align: center;
+  color: #ff0000;
+  margin-bottom: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+nav button {
+  background: #220000;
+  border: 1px solid #ff0000;
+  color: #ff0000;
+  padding: 10px 18px;
+  margin: 0 6px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+nav button.active,
+nav button:hover:not(:disabled) {
+  background: #ff0000;
+  color: #111;
+}
+
+nav button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.tab-content {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 1px solid #ff0000;
+  background-color: #220000;
+  color: #eee;
+}
+
+.login-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.login-buttons button {
+  background: #ff0000;
+  border: none;
+  padding: 10px 18px;
+  font-weight: bold;
+  color: #111;
+  cursor: pointer;
+  border-radius: 4px;
+  flex: 1;
+  margin: 0 5px;
+  transition: background 0.3s ease;
+}
+
+.login-buttons button:hover {
+  background: #cc0000;
+}
+
+.msg {
+  margin-top: 10px;
+  color: #ff5555;
+  font-weight: bold;
+  min-height: 20px;
+}
+
+#offsets-list {
+  margin-bottom: 15px;
+}
+
+.offset-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #220000;
+  border: 1px solid #ff0000;
+  padding: 8px 12px;
+  margin-bottom: 8px;
+  border-radius: 4px;
+}
+
+.offset-texts {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.offset-item input {
+  background: #330000;
+  border: 1px solid #ff0000;
+  color: #eee;
+  padding: 6px 8px;
+  border-radius: 4px;
+  width: 220px;
+}
+
+button.download-btn,
+a.download-btn {
+  background: #ff0000;
+  color: #111;
+  font-weight: bold;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+  transition: background 0.3s ease;
+}
+
+button.download-btn:hover,
+a.download-btn:hover {
+  background: #cc0000;
+}
+
+button#edit-offsets-btn,
+button#save-offsets-btn {
+  background: #cc0000;
+  border: none;
+  padding: 10px 18px;
+  font-weight: bold;
+  color: #111;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-right: 10px;
+  transition: background 0.3s ease;
+}
+
+button#edit-offsets-btn:hover,
+button#save-offsets-btn:hover {
+  background: #aa0000;
+}
+
+.spoofer-item,
+.tool-item {
+  background: #220000;
+  border: 1px solid #ff0000;
+  padding: 15px 20px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+.status {
+  font-weight: bold;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 0.9em;
+  user-select: none;
+}
+
+.status.safe {
+  background-color: #00aa00;
+  color: #111;
+  margin-right: 10px;
+}
+
+.status.working {
+  background-color: #0077cc;
+  color: #eee;
+}
+
+.copy-btn {
+  background-color: #ff0000;
+  border: none;
+  color: #111;
+  font-weight: bold;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: background 0.3s ease;
+}
+
+.copy-btn:hover {
+  background-color: #cc0000;
+}
+
+.copy-all-btn {
+  background-color: #ff0000;
+  border: none;
+  color: #111;
+  font-weight: bold;
+  padding: 10px 18px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 15px;
+  transition: background 0.3s ease;
+}
+
+.copy-all-btn:hover {
+  background-color: #cc0000;
+}
